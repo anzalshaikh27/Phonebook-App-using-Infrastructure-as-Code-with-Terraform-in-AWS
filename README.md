@@ -32,7 +32,7 @@ Portfolio Link - [http://anzalwebsiteterraform.s3-website.us-east-2.amazonaws.co
 ## Contributors
 Mohammed Anzal Shaikh 
 
-## Saple Image
+## Sample Image
 
 ![image](https://github.com/anzalshaikh27/Portfolio-Website-using-Terraform-on-AWS-using-S3-bucket/assets/57680301/64db6d67-4ae8-4901-8a8a-670f42f4ba5f)
 
