@@ -4,8 +4,11 @@ This project showcases my portfolio website, which is hosted on AWS using Terraf
 
 ## Features
 --> Infrastructure as Code: Built using Terraform, ensuring easy replication and management of the AWS resources.
+
 --> S3 Bucket Hosting: Utilizes an S3 bucket for static website hosting, ensuring scalability and cost-effectiveness.
+
 --> Dynamic Content: Displays dynamic content such as education, skills, work experience, projects, and publications, making it easy for visitors to understand my background and achievements.
+
 --> Responsive Design: The website is designed to be responsive, ensuring a seamless experience across different devices.
 
 ## Technologies Used
