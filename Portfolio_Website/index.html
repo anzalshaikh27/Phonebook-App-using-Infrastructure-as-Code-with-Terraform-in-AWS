@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Anzal Shaikh | Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            animation: slide-down 0.5s ease-out;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            animation: fade-in 1s ease-out;
+        }
+
+        @keyframes slide-down {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        .section {
+            margin-top: 20px;
+            animation: fade-in 1s ease-out;
+        }
+
+        .section h3 {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            animation: slide-up 0.5s ease-out;
+        }
+
+        @keyframes slide-up {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Image styling */
+        .profile-image {
+            display: block;
+            margin: 0 auto;
+            width: 200px;
+            border-radius: 50%;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            animation: zoom-in 1s ease-out;
+        }
+
+        @keyframes zoom-in {
+            from {
+                transform: scale(0.5);
+            }
+
+            to {
+                transform: scale(1);
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Mohammed Anzal Shaikh</h1>
+        <p>DevOps, Data Analyst and Data Science Enthusiast | Ex-Accenture</p>
+        <p>Email: anzalshaikh27@gmail.com | <a href="#">LinkedIn</a> | <a href="#">GitHub</a></p>
+    </header>
+    <img src="https://anzalwebsiteterraform.s3.us-east-2.amazonaws.com/photo.png" alt="Profile Photo" class="profile-image">
+    <div class="container">
+        <section class="section">
+            <h2>Education</h2>
+            <p>Master’s in Information Systems, Northeastern University, Boston, USA (Sep 2023 – May 2025)<br>
+                Bachelor of Technology in Computer Engineering, The University of Mumbai, India (June 2018 - June 2021)</p>
+        </section>
+        <section class="section">
+            <h2>Technical Skills</h2>
+            <p>Programming: Python, Java, Shell Script, Bash, R, SQL, PL/SQL, C, C#, C++, .Net, Angular, NodeJS<br>
+                Data Tools: Power BI, Advanced Excel, Tableau, Google Analytics, Alteryx, Hadoop, EDA<br>
+                Tools & Services: Terraform, Docker, Kubernetes, Gitlab, GitHub, Git, Ansible, Jenkins, Puppet, Agile<br>
+                Databases: Oracle, SQL Server, MySQL, MongoDB, NoSQL, PostgreSQL<br>
+                Libraries: NumPy, Pandas, Matplotlib, PyTorch, Seaborn, Scikit-learn, TensorFlow, Statsmodels<br>
+                Certifications & Others: AWS Cloud Practitioner, Python, Java, RabbitMQ, Dynatrace, Zabbix</p>
+        </section>
+        <section class="section">
+            <h2>Work Experience</h2>
+            <p>DevOps Engineer at Accenture, Mumbai (June 2021 – July 2023)<br>
+                Data Analyst Intern at AIESEC, Mumbai (Sep 2019- Nov 2019)</p>
+        </section>
+        <section class="section">
+            <h2>Academic Projects</h2>
+            <p>Travel Insurance Prediction Using Machine Learning (Capstone) Jan 2024 – April 2024<br>
+                Hospital Management System with Python and SQL Sep 2023 – Dec 2023<br>
+                Personalized Event Recommendation System using NLP and Django Aug 2020 – April 2021<br>
+                AI for Blind using Raspberry Pi and Machine Learning Algorithm Aug 2017 – April 2018</p>
+        </section>
+        <section class="section">
+            <h2>Publications</h2>
+            <p>“Personalized Event Recommendation System” at International Journal for Research in Applied Science & Engineering Technology (IJRASET), Mumbai, India, 5th July 2021.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Mohammed Anzal Shaikh</p>
+    </footer>
+</body>
+
+</html>
