@@ -2,6 +2,8 @@
 
 This project showcases my portfolio website, which is hosted on AWS using Terraform to manage the infrastructure. The website is a single-page application that highlights my skills, education, work experience, projects, and publications.
 
+Portfolio Link - [http://anzalwebsiteterraform.s3-website.us-east-2.amazonaws.com/]([url](http://anzalwebsiteterraform.s3-website.us-east-2.amazonaws.com/))
+
 ## Features
 --> Infrastructure as Code: Built using Terraform, ensuring easy replication and management of the AWS resources.
 
